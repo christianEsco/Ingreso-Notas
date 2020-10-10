@@ -1,14 +1,10 @@
 
 package ejercicioingresonotas;
-<<<<<<< HEAD
 // juan josue chajil navarro carnet 2000166
 /**
  *
  * @author DELL
  */
-=======
-
->>>>>>> a4681b6ebfc97451b6a2bdbdf65f510670f6b50d
 public class Alumnos {
     
      int carnet;
