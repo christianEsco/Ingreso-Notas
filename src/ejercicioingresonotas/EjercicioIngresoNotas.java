@@ -1,9 +1,12 @@
 package ejercicioingresonotas;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class EjercicioIngresoNotas {
 
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
         List<Alumnos> ListAlumno = new ArrayList();
 
@@ -62,6 +65,71 @@ public class EjercicioIngresoNotas {
                     int carneet = in.nextInt();
                     int indice = 0;
                     boolean act = false;
-            }
+                for (Alumnos alumno : ListAlumno) {
 
-        }
+                        if (alumno.getCarnet() == carneet) {
+                            int selec;
+                            act = true;
+                            System.out.println("Hay repetido" + indice);
+                            System.out.println("Seleccione que Dato decea modificar");
+                            System.out.println("1. carnet");
+                            System.out.println("2. Nombre");
+                            System.out.println("3. parcial-1");
+                            System.out.println("4. parcial-2");
+                            System.out.println("5. zona");
+                            System.out.println("6. Examen");
+                            selec = in.nextInt();
+                            switch (selec) {
+                                case 1:
+                                    System.out.println("Ingresa el nuevo numero de carnet");
+                                    carnet = in.nextInt();
+                                    ListAlumno.get(indice).setCarnet(carnet);
+                                    break;
+                                case 2:
+                                    System.out.println("Ingresa el nuevo nombre");
+                                    nombre = in.next();
+                                    ListAlumno.get(indice).setNombre(nombre);
+                                    break;
+                                case 3:
+                                    System.out.println("Ingresa la nueva nota del parial-1");
+                                    nota1 = in.nextInt();
+                                    ListAlumno.get(indice).setNota1(nota1);
+                                    ListAlumno.get(indice).setTotal(alumno.getNota1() + alumno.getNota2() + alumno.getZona() + alumno.getExamen());
+                                    break;
+                                case 4:
+                                    System.out.println("Ingresa la nueva nota del parial-2");
+                                    nota2 = in.nextInt();
+                                    ListAlumno.get(indice).setNota2(nota2);
+                                    ListAlumno.get(indice).setTotal(alumno.getNota1() + alumno.getNota2() + alumno.getZona() + alumno.getExamen());
+                                    break;
+                                case 5:
+                                    System.out.println("Ingresa la nueva nota de zona");
+                                    zona = in.nextInt();
+                                    ListAlumno.get(indice).setZona(zona);
+                                    ListAlumno.get(indice).setTotal(alumno.getNota1() + alumno.getNota2() + alumno.getZona() + alumno.getExamen());
+                                    break;
+                                case 6:
+                                    System.out.println("Ingresa la nueva nota del examen");
+                                    Examen = in.nextInt();
+                                    ListAlumno.get(indice).setExamen(Examen);
+                                    ListAlumno.get(indice).setTotal(alumno.getNota1() + alumno.getNota2() + alumno.getZona() + alumno.getExamen());
+                                    break;
+                            }
+
+                        }
+                        indice++;
+                    }
+                    if (act == false) {
+                        System.out.println("No hay registro de este carnet");
+                        System.out.println("Por favor ingrese un carnet valido");
+                    }
+
+                    break;
+            }
+        } while (opcion != 4);
+
+    }
+}
+            
+
+        
