@@ -43,4 +43,49 @@ public class Alumnos {
     public String getNombre() {
         return nombre;
     }
+     public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getNota1() {
+        return nota1;
+    }
+
+    public void setNota1(double nota1) {
+        this.nota1 = nota1;
+    }
+
+    public double getNota2() {
+        return nota2;
+    }
+
+    public void setNota2(double nota2) {
+        this.nota2 = nota2;
+    }
+
+    public double getZona() {
+        return zona;
+    }
+
+    public void setZona(double zona) {
+        this.zona = zona;
+    }
+
+    public double getExamen() {
+        return Examen;
+    }
+
+    public void setExamen(double Examen) {
+        this.Examen = Examen;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
 }
+
