@@ -1,6 +1,6 @@
 
 package ejercicioingresonotas;
-// juan josue chajil navarro carnet 2000166
+
 /**
  *
  * @author DELL
