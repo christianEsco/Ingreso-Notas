@@ -1,5 +1,8 @@
 package ejercicioingresonotas;
-
+/*
+Integrantes:
+Christian Escobar 2224
+*/
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -120,8 +123,10 @@ public class EjercicioIngresoNotas {
                         indice++;
                     }
                     if (act == false) {
+                        System.out.println("===============================================");
                         System.out.println("No hay registro de este carnet");
                         System.out.println("Por favor ingrese un carnet valido");
+                        System.out.println("===============================================");
                     }
 
                     break;

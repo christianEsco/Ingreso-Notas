@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ejercicioingresonotas;
+<<<<<<< HEAD
 // juan josue chajil navarro carnet 2000166
 /**
  *
  * @author DELL
  */
+=======
+
+>>>>>>> a4681b6ebfc97451b6a2bdbdf65f510670f6b50d
 public class Alumnos {
     
      int carnet;
@@ -43,4 +43,49 @@ public class Alumnos {
     public String getNombre() {
         return nombre;
     }
+     public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getNota1() {
+        return nota1;
+    }
+
+    public void setNota1(double nota1) {
+        this.nota1 = nota1;
+    }
+
+    public double getNota2() {
+        return nota2;
+    }
+
+    public void setNota2(double nota2) {
+        this.nota2 = nota2;
+    }
+
+    public double getZona() {
+        return zona;
+    }
+
+    public void setZona(double zona) {
+        this.zona = zona;
+    }
+
+    public double getExamen() {
+        return Examen;
+    }
+
+    public void setExamen(double Examen) {
+        this.Examen = Examen;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
 }
+
