@@ -2,6 +2,7 @@ package ejercicioingresonotas;
 /*
 Integrantes:
 Christian Escobar 2224
+Roxana Estrada 1600747
 */
 import java.util.ArrayList;
 import java.util.List;
