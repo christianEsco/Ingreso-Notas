@@ -1,9 +1,9 @@
 package ejercicioingresonotas;
 /*
 Integrantes:
-Christian Escobar 2224
-Roxana Estrada 1600747
-Josue Chajil 2000166
+Christian Escobar 2000224
+Roxana Estrada    1600747
+Josue Chajil      2000166
 */
 import java.util.ArrayList;
 import java.util.List;
