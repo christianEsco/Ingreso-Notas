@@ -4,6 +4,7 @@ Integrantes:
 Christian Escobar 2000224
 Roxana Estrada    1600747
 Josue Chajil      2000166
+Jose Flores       2000104
 */
 import java.util.ArrayList;
 import java.util.List;
